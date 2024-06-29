@@ -15,14 +15,16 @@ one) to recover from downtime quickly. (See the docs for `NewFrom()` for caveats
 
 ### Installation
 
-`go get github.com/patrickmn/go-cache`
+`go get github.com/huydang284/go-cache`
 
 ### Usage
 
 ```go
+package main
+
 import (
 	"fmt"
-	"github.com/patrickmn/go-cache"
+	"github.com/huydang284/go-cache"
 	"time"
 )
 
@@ -80,4 +82,4 @@ func main() {
 
 ### Reference
 
-`godoc` or [http://godoc.org/github.com/patrickmn/go-cache](http://godoc.org/github.com/patrickmn/go-cache)
+`godoc` or [http://godoc.org/github.com/huydang284/go-cache](http://godoc.org/github.com/huydang284/go-cache)
